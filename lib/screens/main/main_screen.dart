@@ -1,6 +1,6 @@
+import 'package:Portfolio/constants.dart';
+import 'package:Portfolio/responsive.dart';
 import 'package:flutter/material.dart';
-import 'package:portfolio/constants.dart';
-import 'package:portfolio/responsive.dart';
 
 import 'components/side_menu.dart';
 
@@ -42,6 +42,7 @@ class MainScreen extends StatelessWidget {
               Expanded(
                 flex: 7,
                 child: SingleChildScrollView(
+                  controller: ScrollController(),
                   child: Column(
                     children: [
                       ...children,

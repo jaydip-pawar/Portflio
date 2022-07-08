@@ -1,6 +1,6 @@
+import 'package:Portfolio/responsive.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:portfolio/responsive.dart';
 import 'dart:js' as js;
 
 import '../../../constants.dart';

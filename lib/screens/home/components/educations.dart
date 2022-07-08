@@ -1,6 +1,6 @@
+import 'package:Portfolio/models/Education.dart';
+import 'package:Portfolio/screens/home/components/education_card.dart';
 import 'package:flutter/material.dart';
-import 'package:portfolio/models/Education.dart';
-import 'package:portfolio/screens/home/components/education_card.dart';
 
 import '../../../constants.dart';
 

@@ -1,6 +1,6 @@
+import 'package:Portfolio/models/Project.dart';
+import 'package:Portfolio/responsive.dart';
 import 'package:flutter/material.dart';
-import 'package:portfolio/models/Project.dart';
-import 'package:portfolio/responsive.dart';
 
 import '../../../constants.dart';
 

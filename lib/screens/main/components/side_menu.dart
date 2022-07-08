@@ -1,6 +1,6 @@
+import 'package:Portfolio/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:portfolio/constants.dart';
 import 'dart:js' as js;
 
 import 'area_info_text.dart';
@@ -44,7 +44,7 @@ class SideMenu extends StatelessWidget {
                     ),
                     AreaInfoText(
                       title: "Age",
-                      text: "19",
+                      text: "20",
                     ),
                     AreaInfoText(
                       title: "Email",
@@ -62,7 +62,7 @@ class SideMenu extends StatelessWidget {
                     SizedBox(height: defaultPadding / 2),
                     TextButton(
                       onPressed: () {
-                        js.context.callMethod('open', ['https://drive.google.com/uc?export=download&id=17RCEz0An8NyBLmSXGcW51KswXTfHvTGc','_self']);
+                        js.context.callMethod('open', ['https://drive.google.com/uc?export=download&id=1RE_TRTghUEFruNPsierq4INBvc_7mIqS','_self']);
                       },
                       child: FittedBox(
                         child: Row(
@@ -88,23 +88,50 @@ class SideMenu extends StatelessWidget {
                       child: Row(
                         children: [
                           Spacer(),
-                          IconButton(
-                            onPressed: () {
-                              js.context.callMethod('open', ['https://www.linkedin.com/in/jaydip-pawar-a92771217']);
-                            },
-                            icon: SvgPicture.asset("assets/icons/linkedin.svg"),
+                          Material(
+                            color: Colors.transparent,
+                            child: IconButton(
+                              onPressed: () {
+                                js.context.callMethod('open', ['https://www.linkedin.com/in/jaydippawar/']);
+                              },
+                              icon: SvgPicture.asset("assets/icons/linkedin.svg"),
+                            ),
                           ),
-                          IconButton(
-                            onPressed: () {
-                              js.context.callMethod('open', ['https://github.com/jaydip-pawar']);
-                            },
-                            icon: SvgPicture.asset("assets/icons/github.svg"),
+                          Material(
+                            color: Colors.transparent,
+                            child: IconButton(
+                              onPressed: () {
+                                js.context.callMethod('open', ['https://github.com/jaydip-pawar']);
+                              },
+                              icon: SvgPicture.asset("assets/icons/github.svg", color: Colors.white54, width: 15, height: 15),
+                            ),
                           ),
-                          IconButton(
-                            onPressed: () {
-                              js.context.callMethod('open', ['https://twitter.com/JaydipP46789093']);
-                            },
-                            icon: SvgPicture.asset("assets/icons/twitter.svg"),
+                          Material(
+                            color: Colors.transparent,
+                            child: IconButton(
+                              onPressed: () {
+                                js.context.callMethod('open', ['https://www.instagram.com/jaydip_pawar_96k/']);
+                              },
+                              icon: SvgPicture.asset("assets/icons/instagram.svg", color: Colors.white54, width: 15, height: 15),
+                            ),
+                          ),
+                          Material(
+                            color: Colors.transparent,
+                            child: IconButton(
+                              onPressed: () {
+                                js.context.callMethod('open', ['https://twitter.com/JaydipP_']);
+                              },
+                              icon: SvgPicture.asset("assets/icons/twitter.svg", color: Colors.white54, width: 15, height: 15),
+                            ),
+                          ),
+                          Material(
+                            color: Colors.transparent,
+                            child: IconButton(
+                              onPressed: () {
+                                js.context.callMethod('open', ['https://www.facebook.com/jaydip.pawar.96k/']);
+                              },
+                              icon: SvgPicture.asset("assets/icons/facebook.svg", color: Colors.white54, width: 15, height: 15),
+                            ),
                           ),
                           Spacer(),
                         ],

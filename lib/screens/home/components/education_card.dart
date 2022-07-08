@@ -1,5 +1,5 @@
+import 'package:Portfolio/models/Education.dart';
 import 'package:flutter/material.dart';
-import 'package:portfolio/models/Education.dart';
 
 import '../../../constants.dart';
 

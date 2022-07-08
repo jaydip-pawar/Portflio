@@ -1,6 +1,6 @@
+import 'package:Portfolio/components/animated_counter.dart';
+import 'package:Portfolio/responsive.dart';
 import 'package:flutter/material.dart';
-import 'package:portfolio/components/animated_counter.dart';
-import 'package:portfolio/responsive.dart';
 
 import '../../../constants.dart';
 import 'high_light.dart';
@@ -22,7 +22,7 @@ class HighLightsInfo extends StatelessWidget {
                   children: [
                     HighLight(
                       counter: AnimatedCounter(
-                        value: 15,
+                        value: 25,
                         text: "+",
                       ),
                       label: "GitHub Repositories",
@@ -36,7 +36,7 @@ class HighLightsInfo extends StatelessWidget {
               children: [
                 HighLight(
                   counter: AnimatedCounter(
-                    value: 15,
+                    value: 25,
                     text: "+",
                   ),
                   label: "GitHub Repositories",

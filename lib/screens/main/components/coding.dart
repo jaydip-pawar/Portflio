@@ -1,5 +1,5 @@
+import 'package:Portfolio/components/animated_progress_indicator.dart';
 import 'package:flutter/material.dart';
-import 'package:portfolio/components/animated_progress_indicator.dart';
 
 import '../../../constants.dart';
 
@@ -22,7 +22,7 @@ class Coding extends StatelessWidget {
           ),
         ),
         AnimatedLinearProgressIndicator(
-          percentage: 0.75,
+          percentage: 0.95,
           label: "Dart",
         ),
         AnimatedLinearProgressIndicator(
